@@ -1,0 +1,23 @@
+{
+  "name": "swn-generators",
+  "description": "generators for the game Stars Without Numbers",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Luca Neukom",
+      "email": "luca.neukom@gmail.com",
+      "web": "https://github.com/padpalon"
+    }
+  ],
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

@@ -12,8 +12,7 @@ const getArguments = () => {
         'type',
         {
             help: 'What to generate',
-            choices: fs.readdirSync('generators').map(filename => filename.replace('.json', '')),
-            required: true
+            choices: fs.readdirSync('generators').map(filename => filename.replace('.json', ''))
         }
     )
     parser.addArgument(
